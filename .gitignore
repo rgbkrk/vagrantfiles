@@ -12,6 +12,8 @@ test/tmp
 test/version_tmp
 tmp
 
+Berksfile.lock
+
 # YARD artifacts
 .yardoc
 _yardoc
