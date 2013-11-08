@@ -42,6 +42,7 @@ Vagrant.configure("2") do |config|
     }
 
     chef.run_list = [
+        "recipe[apt]",
         "recipe[java_linux::default]"
     ]
   end
