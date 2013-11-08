@@ -2,5 +2,13 @@ site :opscode
 
 cookbook 'apt'
 
+cookbook 'java',
+  :git => 'https://github.com/opscode-cookbooks/java.git',
+  :ref => 'e144746b0c309e01f29ae61bb894f91c107ba069'
+
+cookbook 'maven',
+  :git => 'https://github.com/opscode-cookbooks/maven.git',
+  :ref => 'a3111f2682c3f1d130e16cf2f04f50ef159896c6'
+
 metadata
 
